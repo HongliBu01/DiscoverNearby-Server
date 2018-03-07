@@ -95,8 +95,8 @@ func handlerPost(w http.ResponseWriter, r *http.Request) {
              panic(err)
              return
       }
-
-      tbl := bt_client.Open("mytable")
+      
+      tbl := bt_client.Open("post")
       mut := bigtable.NewMutation()
       t := bigtable.Now()
 
