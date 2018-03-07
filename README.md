@@ -4,7 +4,7 @@ DiscoverNearby Server
 
 ### Prerequisites
 
-VMInstance in Google Cloud
+VMInstance in Google Cloud<br>
 ElasticSearch
 
 
